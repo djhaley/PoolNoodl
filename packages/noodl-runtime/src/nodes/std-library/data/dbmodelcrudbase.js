@@ -108,7 +108,7 @@ function _addBaseInfo(def, opts) {
                     })
                   : []
               ),
-              allowEditOnly: true
+              allowEditOnly: false
             },
             plug: 'input'
           });

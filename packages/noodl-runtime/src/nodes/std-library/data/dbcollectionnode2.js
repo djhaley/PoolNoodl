@@ -504,7 +504,7 @@ function updatePorts(nodeId, parameters, editorConnection, graphModel) {
             })
           : []
       ),
-      allowEditOnly: true
+      allowEditOnly: false
     },
     displayName: 'Class',
     plug: 'input',
